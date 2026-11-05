@@ -1,0 +1,4 @@
+[
+  {"name":"health endpoint","actual":{"status":200,"body":{"ok":true,"uptime":123}},"expected":{"status":200,"body":{"ok":true}}},
+  {"name":"not found","actual":{"status":404},"expected":{"status":404}}
+]
